@@ -18,7 +18,7 @@ services:
 
   
   back:
-    image: omaar0088/omar-back:3
+    image: omaar0088/omar-back:4
     container_name: omaar0088/omar_back
     ports:
       - 5000:5000
@@ -28,7 +28,7 @@ services:
       - some-mongo
 
   front:
-    image: omaar0088/omar-front:3
+    image: omaar0088/omar-front:4
     container_name: omaar0088/omar_front
     ports:
       - 3000:3000
